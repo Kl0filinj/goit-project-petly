@@ -1,0 +1,1 @@
+{"version":3,"file":"static/js/454.10e313f1.chunk.js","mappings":"gMAMA,EAJmB,WACjB,OAAO,uCACR,C","sources":["pages/OurFriends/OurFriends.jsx"],"sourcesContent":["import React from 'react';\n\nconst OurFriends = () => {\n  return <div>OurFriends</div>;\n};\n\nexport default OurFriends;\n"],"names":[],"sourceRoot":""}

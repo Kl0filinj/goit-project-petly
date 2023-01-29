@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkgoit_project_petly=self.webpackChunkgoit_project_petly||[]).push([[723],{723:function(n,e,t){t.r(e),t.d(e,{Login:function(){return i},Register:function(){return u}});t(791);var r=t(184),i=function(){return(0,r.jsx)("div",{children:"Login"})},u=function(){return(0,r.jsx)("div",{children:"Register"})}}}]);
+//# sourceMappingURL=723.332e676d.chunk.js.map
