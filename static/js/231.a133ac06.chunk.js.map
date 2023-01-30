@@ -1,1 +1,0 @@
-{"version":3,"file":"static/js/231.a133ac06.chunk.js","mappings":"iMAMA,EAJoB,WAClB,OAAO,wCACR,C","sources":["pages/UserAccount/UserAccount.jsx"],"sourcesContent":["import React from 'react';\n\nconst UserAccount = () => {\n  return <div>UserAccount</div>;\n};\n\nexport default UserAccount;\n"],"names":[],"sourceRoot":""}
