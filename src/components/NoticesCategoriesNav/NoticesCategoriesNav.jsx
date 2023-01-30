@@ -1,11 +1,17 @@
-// import React from 'react'
+import { Outlet } from 'react-router-dom'
+import { LinkBox, Link, Box } from '@chakra-ui/react'
 
-// import NoticeCategoryItem from "components/NoticesCategoryItem/NoticesCategoryItem"
+const NoticesCategoriesNav = () => {
+  return (
+    <Box>
+        <LinkBox>
+            <Link>sell</Link>
+            <Link>lost/found</Link>
+            <Link>in good hands</Link>
+        </LinkBox>
+        <Outlet />
+    </ Box>
+  )
+}
 
-// const NoticesCategoriesNav = () => {
-//   return (
-//     <div></div>
-//   )
-// }
-
-// export default NoticesCategoriesNav
+export default NoticesCategoriesNav
