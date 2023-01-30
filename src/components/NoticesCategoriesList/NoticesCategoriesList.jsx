@@ -2,7 +2,7 @@ import React from 'react'
 
 import {NoticesCategoryItem} from './NoticesCategoryItem.js'
 
-const NoticesCategoriesList = (userPets) => {
+const NoticesCategoriesList = (userPets, condition) => {
 const filterPets = userPets.filter(pets => pets.condition === condition)
   return (
     <ul key={filterPets.id}>

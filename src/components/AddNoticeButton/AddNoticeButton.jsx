@@ -1,8 +1,8 @@
 import React from 'react'
 
-const AddNoticeButton = () => {
+const AddNoticeButton = (onClick) => {
     return (
-        <div>AddNoticeButton</div>
+        <button type="button" onClick={onClick}>AddNoticeButton</button>
     )
 }
 

@@ -1,5 +1,6 @@
 import { useState} from 'react';
-import { Search, SearchForm, FormButton, FormInput } from "components/NoticesSearch/NoticesSearch"
+import { FormControl, FormLabel, Button, IconButton, Input } from '@chakra-ui/react'
+// import { Search, SearchForm, FormButton, FormInput } from "components/NoticesSearch/NoticesSearch"
 import PropTypes from "prop-types"
 import { CloseIcon } from '@chakra-ui/icon'
 
@@ -26,9 +27,9 @@ const NoticesSearch = (onSubmit) => {
   }
   console.log(filteredData);
   return (
-    <Search>
-      <SearchForm onSubmit={handleSubmit}>
-        <FormInput
+    <FormControl>
+      <FormLabel onSubmit={handleSubmit}>
+        <Input
       type="text"
       name="input"
       autocomplete="off"
@@ -36,13 +37,13 @@ const NoticesSearch = (onSubmit) => {
       onChange={handleChange}
       value={filteredData}
       />
-        <FormButton type="submit">
+        <Button type="submit">
 {filteredData.length === 0 ?
-<SearchIcon /> : <CloseIcon onClick={clearInput} />
+  <IconButton aria-label='Search database' icon={<SearchIcon />} /> : <CloseIcon onClick={clearInput} />
 }
-        </FormButton>
-      </SearchForm>
-    </Search>
+        </Button>
+      </FormLabel>
+    </FormControl>
   )
 }
 NoticesSearch.propTypes = {
