@@ -2,7 +2,7 @@ import NoticesSearch from 'components/NoticesSearch/NoticesSearch';
 import NoticesCategoriesNav from 'components/NoticesCategoriesNav/NoticesCategoriesNav';
 // import NoticesCategoriesList from "components/NoticesCategoriesList/NoticesCategoriesList";
 // import NoticesCategoryItem from "components/NoticesCategoryItem/NoticesCategoryItem";
-// import AddNoticeButton from "components/AddNoticeButton/AddNoticeButton";
+import AddNoticeButton from "components/AddNoticeButton/AddNoticeButton";
 
 const Notices = () => {
   return (
@@ -12,7 +12,7 @@ const Notices = () => {
       <NoticesCategoriesNav />
       {/* <NoticesCategoriesList /> */}
       {/* <NoticesCategoryItem /> */}
-      {/* <AddNoticeButton />  */}
+      <AddNoticeButton /> 
     </>
   );
 };

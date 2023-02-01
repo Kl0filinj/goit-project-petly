@@ -1,9 +1,16 @@
-import { Button } from '@chakra-ui/react';
+import { Button, Icon, Container } from '@chakra-ui/react';
+import { Notify} from 'notiflix/build/notiflix-notify-aio'
 import React from 'react';
 
-const AddNoticeButton = ({ onClick }) => {
+const AddNoticeButton = () => {
+  const handleClick = () => {
+    Notify.failrule("please log in")
+  }
   return (
-    <Button type="button" onClick={onClick}>
+    <Button type="button" onClick={handleClick}>
+      <Icon>
+        <Container>Add pet</Container>
+      </Icon>
       AddNoticeButton
     </Button>
   );

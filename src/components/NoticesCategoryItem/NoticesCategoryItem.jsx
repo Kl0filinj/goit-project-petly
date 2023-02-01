@@ -1,5 +1,4 @@
 import React from 'react'
-import {Text} from '@chakra-ui/react'
 
 const NoticesCategoryItem = (
   {
@@ -11,23 +10,24 @@ const NoticesCategoryItem = (
   location,
   age,
   condition,
-  onDeletePets
+  onDeletePets,
+  onLearnMore,
   }) => {
   return (
     <li>
       <div>
-        <img src={avatar} alt="Pets" width="100" />
+        <img src={avatar} alt={title} width="100" />
         <p>{condition}</p>
-        <Text bg={ favorite ? "res.200" : "green.300"}></Text>
+        <span>icon</span>
       </div>
     <h3>{title}</h3>
-      <p>Breed:{breed}</p> 
-      <p>Location:{location}</p>
-      <p>Age:{age}</p> 
-    <button>Learn more</button>
+      <p>Breed:<span>{breed}</span></p> 
+      <p>Location:<span>{location}</span></p>
+      <p>Age:<span>{age}</span></p> 
+    <button type="submit" onClick={() => onLearnMore(id)}>Learn more</button>
     {favorite? <button
       type='submit'
-      onClick={onDeletePets(id)}>
+      onClick={() => onDeletePets(id)}>
       Delete
     </button> : null}
     </li>
