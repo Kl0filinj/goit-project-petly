@@ -1,25 +1,32 @@
 {
   "files": {
     "main.css": "/goit-project-petly/static/css/main.7acaea2f.css",
-    "main.js": "/goit-project-petly/static/js/main.99902cc2.js",
+    "main.js": "/goit-project-petly/static/js/main.ac8df22d.js",
     "static/js/859.5c568b68.chunk.js": "/goit-project-petly/static/js/859.5c568b68.chunk.js",
-    "static/js/723.6d27fbfb.chunk.js": "/goit-project-petly/static/js/723.6d27fbfb.chunk.js",
+    "static/js/498.fc941b55.chunk.js": "/goit-project-petly/static/js/498.fc941b55.chunk.js",
     "static/js/265.87b6c09f.chunk.js": "/goit-project-petly/static/js/265.87b6c09f.chunk.js",
-    "static/js/692.cea4db72.chunk.js": "/goit-project-petly/static/js/692.cea4db72.chunk.js",
+    "static/js/922.c0c0dacb.chunk.js": "/goit-project-petly/static/js/922.c0c0dacb.chunk.js",
     "static/js/454.ef706739.chunk.js": "/goit-project-petly/static/js/454.ef706739.chunk.js",
     "static/js/231.f9e950ba.chunk.js": "/goit-project-petly/static/js/231.f9e950ba.chunk.js",
+    "static/js/462.c83caf4b.chunk.js": "/goit-project-petly/static/js/462.c83caf4b.chunk.js",
+    "static/js/393.e52a3254.chunk.js": "/goit-project-petly/static/js/393.e52a3254.chunk.js",
+    "static/media/bg-auth-laptop.png": "/goit-project-petly/static/media/bg-auth-laptop.37258932ae831c4f8073.png",
+    "static/media/bg-auth-tablet.png": "/goit-project-petly/static/media/bg-auth-tablet.b2c9c95741743cc440fe.png",
+    "static/media/bg-auth-mobile.png": "/goit-project-petly/static/media/bg-auth-mobile.4113b880676e40779373.png",
     "index.html": "/goit-project-petly/index.html",
     "main.7acaea2f.css.map": "/goit-project-petly/static/css/main.7acaea2f.css.map",
-    "main.99902cc2.js.map": "/goit-project-petly/static/js/main.99902cc2.js.map",
+    "main.ac8df22d.js.map": "/goit-project-petly/static/js/main.ac8df22d.js.map",
     "859.5c568b68.chunk.js.map": "/goit-project-petly/static/js/859.5c568b68.chunk.js.map",
-    "723.6d27fbfb.chunk.js.map": "/goit-project-petly/static/js/723.6d27fbfb.chunk.js.map",
+    "498.fc941b55.chunk.js.map": "/goit-project-petly/static/js/498.fc941b55.chunk.js.map",
     "265.87b6c09f.chunk.js.map": "/goit-project-petly/static/js/265.87b6c09f.chunk.js.map",
-    "692.cea4db72.chunk.js.map": "/goit-project-petly/static/js/692.cea4db72.chunk.js.map",
+    "922.c0c0dacb.chunk.js.map": "/goit-project-petly/static/js/922.c0c0dacb.chunk.js.map",
     "454.ef706739.chunk.js.map": "/goit-project-petly/static/js/454.ef706739.chunk.js.map",
-    "231.f9e950ba.chunk.js.map": "/goit-project-petly/static/js/231.f9e950ba.chunk.js.map"
+    "231.f9e950ba.chunk.js.map": "/goit-project-petly/static/js/231.f9e950ba.chunk.js.map",
+    "462.c83caf4b.chunk.js.map": "/goit-project-petly/static/js/462.c83caf4b.chunk.js.map",
+    "393.e52a3254.chunk.js.map": "/goit-project-petly/static/js/393.e52a3254.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7acaea2f.css",
-    "static/js/main.99902cc2.js"
+    "static/js/main.ac8df22d.js"
   ]
 }
