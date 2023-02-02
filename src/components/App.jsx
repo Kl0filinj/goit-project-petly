@@ -52,13 +52,13 @@ export const App = () => {
           <Route
             path="own"
             element={
-              <PrivateRoute redirectTo="/login" component={<p>own</p>} />
+              <PrivateRoute redirectTo="/login" component={<p>my ads</p>} />
             }
           />
           <Route
             path="favorite"
             element={
-              <PrivateRoute redirectTo="/login" component={<p>favorite</p>} />
+              <PrivateRoute redirectTo="/login" component={<p>favorite ads</p>} />
             }
           />
         </Route>

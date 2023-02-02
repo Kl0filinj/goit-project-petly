@@ -1,11 +1,24 @@
-import { Button } from '@chakra-ui/react';
+import { Button, ButtonGroup, IconButton } from '@chakra-ui/react';
+import { AddIcon } from '@chakra-ui/icons'
 import React from 'react';
+import { toast } from 'react-toastify';
 
-const AddNoticeButton = ({ onClick }) => {
+
+const AddNoticeButton = () => {
+  const handleClick = () => {
+    toast("Please log in")
+  }
   return (
-    <Button type="button" onClick={onClick}>
-      AddNoticeButton
-    </Button>
+    <>
+    <ButtonGroup size='sm' >
+      <Button type="button" onClick={handleClick}>
+        Add pet
+      </Button>
+  <IconButton aria-label='Add to friends' borderRadius={'40px'} backgroundColor={'#F59256'} width={'44px'} height={'44px'}
+   icon={<AddIcon  width={'16px'} height={'16px'} fill={'accent.100'} />} />
+</ButtonGroup>
+    
+    </>
   );
 };
 
