@@ -1,34 +1,39 @@
 {
   "files": {
     "main.css": "/goit-project-petly/static/css/main.7acaea2f.css",
-    "main.js": "/goit-project-petly/static/js/main.f168189a.js",
+    "main.js": "/goit-project-petly/static/js/main.0b340c62.js",
     "static/js/859.5c568b68.chunk.js": "/goit-project-petly/static/js/859.5c568b68.chunk.js",
-    "static/js/738.c603baec.chunk.js": "/goit-project-petly/static/js/738.c603baec.chunk.js",
-    "static/js/318.f691b22a.chunk.js": "/goit-project-petly/static/js/318.f691b22a.chunk.js",
-    "static/js/951.1115e9ba.chunk.js": "/goit-project-petly/static/js/951.1115e9ba.chunk.js",
+    "static/js/738.0c8c2062.chunk.js": "/goit-project-petly/static/js/738.0c8c2062.chunk.js",
+    "static/js/318.bcabb997.chunk.js": "/goit-project-petly/static/js/318.bcabb997.chunk.js",
+    "static/js/362.c67cf2fd.chunk.js": "/goit-project-petly/static/js/362.c67cf2fd.chunk.js",
     "static/js/454.ef706739.chunk.js": "/goit-project-petly/static/js/454.ef706739.chunk.js",
     "static/js/231.f9e950ba.chunk.js": "/goit-project-petly/static/js/231.f9e950ba.chunk.js",
-    "static/js/111.7f1cb182.chunk.js": "/goit-project-petly/static/js/111.7f1cb182.chunk.js",
+    "static/js/896.9c43dc68.chunk.js": "/goit-project-petly/static/js/896.9c43dc68.chunk.js",
     "static/js/724.06e13e7c.chunk.js": "/goit-project-petly/static/js/724.06e13e7c.chunk.js",
-    "static/js/369.744fd1b5.chunk.js": "/goit-project-petly/static/js/369.744fd1b5.chunk.js",
+    "static/js/412.5d24e832.chunk.js": "/goit-project-petly/static/js/412.5d24e832.chunk.js",
     "static/media/bg-auth-laptop.png": "/goit-project-petly/static/media/bg-auth-laptop.37258932ae831c4f8073.png",
     "static/media/bg-auth-tablet.png": "/goit-project-petly/static/media/bg-auth-tablet.b2c9c95741743cc440fe.png",
     "static/media/bg-auth-mobile.png": "/goit-project-petly/static/media/bg-auth-mobile.4113b880676e40779373.png",
+    "static/media/male.svg": "/goit-project-petly/static/media/male.738c9ca9680a0bee2db2bd089ee92c0f.svg",
+    "static/media/female.svg": "/goit-project-petly/static/media/female.603c34c0f688d1b687cbff7c0c94bd6f.svg",
+    "static/media/heart.svg": "/goit-project-petly/static/media/heart.c02df80a0976e3d3eb9b90bca8b65324.svg",
+    "static/media/heartFull.svg": "/goit-project-petly/static/media/heartFull.dc0e6d070ebd7446a3765b6eaf4b8efd.svg",
     "index.html": "/goit-project-petly/index.html",
+    "static/media/akar-icons_plus.svg": "/goit-project-petly/static/media/akar-icons_plus.deec2b9327a6f7e779ae3cbb9fa31798.svg",
     "main.7acaea2f.css.map": "/goit-project-petly/static/css/main.7acaea2f.css.map",
-    "main.f168189a.js.map": "/goit-project-petly/static/js/main.f168189a.js.map",
+    "main.0b340c62.js.map": "/goit-project-petly/static/js/main.0b340c62.js.map",
     "859.5c568b68.chunk.js.map": "/goit-project-petly/static/js/859.5c568b68.chunk.js.map",
-    "738.c603baec.chunk.js.map": "/goit-project-petly/static/js/738.c603baec.chunk.js.map",
-    "318.f691b22a.chunk.js.map": "/goit-project-petly/static/js/318.f691b22a.chunk.js.map",
-    "951.1115e9ba.chunk.js.map": "/goit-project-petly/static/js/951.1115e9ba.chunk.js.map",
+    "738.0c8c2062.chunk.js.map": "/goit-project-petly/static/js/738.0c8c2062.chunk.js.map",
+    "318.bcabb997.chunk.js.map": "/goit-project-petly/static/js/318.bcabb997.chunk.js.map",
+    "362.c67cf2fd.chunk.js.map": "/goit-project-petly/static/js/362.c67cf2fd.chunk.js.map",
     "454.ef706739.chunk.js.map": "/goit-project-petly/static/js/454.ef706739.chunk.js.map",
     "231.f9e950ba.chunk.js.map": "/goit-project-petly/static/js/231.f9e950ba.chunk.js.map",
-    "111.7f1cb182.chunk.js.map": "/goit-project-petly/static/js/111.7f1cb182.chunk.js.map",
+    "896.9c43dc68.chunk.js.map": "/goit-project-petly/static/js/896.9c43dc68.chunk.js.map",
     "724.06e13e7c.chunk.js.map": "/goit-project-petly/static/js/724.06e13e7c.chunk.js.map",
-    "369.744fd1b5.chunk.js.map": "/goit-project-petly/static/js/369.744fd1b5.chunk.js.map"
+    "412.5d24e832.chunk.js.map": "/goit-project-petly/static/js/412.5d24e832.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7acaea2f.css",
-    "static/js/main.f168189a.js"
+    "static/js/main.0b340c62.js"
   ]
 }
