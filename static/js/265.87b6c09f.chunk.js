@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkgoit_project_petly=self.webpackChunkgoit_project_petly||[]).push([[265],{1265:function(e,t,n){n.r(t),n.d(t,{News:function(){return c}});n(2791);var r=n(184),c=function(){return(0,r.jsx)("div",{children:"News"})}}}]);
-//# sourceMappingURL=265.87b6c09f.chunk.js.map
