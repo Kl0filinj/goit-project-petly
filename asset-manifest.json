@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/goit-project-petly/static/css/main.b0e350f9.css",
-    "main.js": "/goit-project-petly/static/js/main.72e46104.js",
+    "main.js": "/goit-project-petly/static/js/main.320d885b.js",
     "static/js/700.79d05038.chunk.js": "/goit-project-petly/static/js/700.79d05038.chunk.js",
     "static/js/709.112d2991.chunk.js": "/goit-project-petly/static/js/709.112d2991.chunk.js",
     "static/js/356.1d692216.chunk.js": "/goit-project-petly/static/js/356.1d692216.chunk.js",
-    "static/js/150.d667b03f.chunk.js": "/goit-project-petly/static/js/150.d667b03f.chunk.js",
+    "static/js/150.28ba222d.chunk.js": "/goit-project-petly/static/js/150.28ba222d.chunk.js",
     "static/js/595.c9f228ea.chunk.js": "/goit-project-petly/static/js/595.c9f228ea.chunk.js",
     "static/js/619.c53c5ce1.chunk.js": "/goit-project-petly/static/js/619.c53c5ce1.chunk.js",
     "static/js/588.34ef6645.chunk.js": "/goit-project-petly/static/js/588.34ef6645.chunk.js",
@@ -28,11 +28,11 @@
     "static/media/user.svg": "/goit-project-petly/static/media/user.8f4abb45d01aed3210246b684264907e.svg",
     "static/media/akar-icons_plus.svg": "/goit-project-petly/static/media/akar-icons_plus.deec2b9327a6f7e779ae3cbb9fa31798.svg",
     "main.b0e350f9.css.map": "/goit-project-petly/static/css/main.b0e350f9.css.map",
-    "main.72e46104.js.map": "/goit-project-petly/static/js/main.72e46104.js.map",
+    "main.320d885b.js.map": "/goit-project-petly/static/js/main.320d885b.js.map",
     "700.79d05038.chunk.js.map": "/goit-project-petly/static/js/700.79d05038.chunk.js.map",
     "709.112d2991.chunk.js.map": "/goit-project-petly/static/js/709.112d2991.chunk.js.map",
     "356.1d692216.chunk.js.map": "/goit-project-petly/static/js/356.1d692216.chunk.js.map",
-    "150.d667b03f.chunk.js.map": "/goit-project-petly/static/js/150.d667b03f.chunk.js.map",
+    "150.28ba222d.chunk.js.map": "/goit-project-petly/static/js/150.28ba222d.chunk.js.map",
     "595.c9f228ea.chunk.js.map": "/goit-project-petly/static/js/595.c9f228ea.chunk.js.map",
     "619.c53c5ce1.chunk.js.map": "/goit-project-petly/static/js/619.c53c5ce1.chunk.js.map",
     "588.34ef6645.chunk.js.map": "/goit-project-petly/static/js/588.34ef6645.chunk.js.map",
@@ -44,6 +44,6 @@
   },
   "entrypoints": [
     "static/css/main.b0e350f9.css",
-    "static/js/main.72e46104.js"
+    "static/js/main.320d885b.js"
   ]
 }
