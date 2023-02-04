@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/goit-project-petly/static/css/main.b0e350f9.css",
-    "main.js": "/goit-project-petly/static/js/main.2ab09767.js",
+    "main.js": "/goit-project-petly/static/js/main.f13c712a.js",
     "static/js/700.79d05038.chunk.js": "/goit-project-petly/static/js/700.79d05038.chunk.js",
     "static/js/709.112d2991.chunk.js": "/goit-project-petly/static/js/709.112d2991.chunk.js",
     "static/js/356.1d692216.chunk.js": "/goit-project-petly/static/js/356.1d692216.chunk.js",
@@ -27,7 +27,7 @@
     "static/media/akar-icons_heart.svg": "/goit-project-petly/static/media/akar-icons_heart.ea665c85a6c4b919e3ff4afb2c498fcb.svg",
     "static/media/akar-icons_plus.svg": "/goit-project-petly/static/media/akar-icons_plus.deec2b9327a6f7e779ae3cbb9fa31798.svg",
     "main.b0e350f9.css.map": "/goit-project-petly/static/css/main.b0e350f9.css.map",
-    "main.2ab09767.js.map": "/goit-project-petly/static/js/main.2ab09767.js.map",
+    "main.f13c712a.js.map": "/goit-project-petly/static/js/main.f13c712a.js.map",
     "700.79d05038.chunk.js.map": "/goit-project-petly/static/js/700.79d05038.chunk.js.map",
     "709.112d2991.chunk.js.map": "/goit-project-petly/static/js/709.112d2991.chunk.js.map",
     "356.1d692216.chunk.js.map": "/goit-project-petly/static/js/356.1d692216.chunk.js.map",
@@ -43,6 +43,6 @@
   },
   "entrypoints": [
     "static/css/main.b0e350f9.css",
-    "static/js/main.2ab09767.js"
+    "static/js/main.f13c712a.js"
   ]
 }
