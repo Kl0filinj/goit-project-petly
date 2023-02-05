@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/goit-project-petly/static/css/main.b0e350f9.css",
-    "main.js": "/goit-project-petly/static/js/main.23449791.js",
+    "main.js": "/goit-project-petly/static/js/main.c79356d1.js",
     "static/js/700.79d05038.chunk.js": "/goit-project-petly/static/js/700.79d05038.chunk.js",
     "static/js/807.fb415e47.chunk.js": "/goit-project-petly/static/js/807.fb415e47.chunk.js",
     "static/js/356.7d412d56.chunk.js": "/goit-project-petly/static/js/356.7d412d56.chunk.js",
-    "static/js/150.69a4c714.chunk.js": "/goit-project-petly/static/js/150.69a4c714.chunk.js",
+    "static/js/150.2ce065e6.chunk.js": "/goit-project-petly/static/js/150.2ce065e6.chunk.js",
     "static/js/207.1d7e4ba1.chunk.js": "/goit-project-petly/static/js/207.1d7e4ba1.chunk.js",
     "static/js/619.551c95e9.chunk.js": "/goit-project-petly/static/js/619.551c95e9.chunk.js",
     "static/js/588.34ef6645.chunk.js": "/goit-project-petly/static/js/588.34ef6645.chunk.js",
@@ -28,11 +28,11 @@
     "static/media/akar-icons_heart.svg": "/goit-project-petly/static/media/akar-icons_heart.ea665c85a6c4b919e3ff4afb2c498fcb.svg",
     "static/media/akar-icons_plus.svg": "/goit-project-petly/static/media/akar-icons_plus.deec2b9327a6f7e779ae3cbb9fa31798.svg",
     "main.b0e350f9.css.map": "/goit-project-petly/static/css/main.b0e350f9.css.map",
-    "main.23449791.js.map": "/goit-project-petly/static/js/main.23449791.js.map",
+    "main.c79356d1.js.map": "/goit-project-petly/static/js/main.c79356d1.js.map",
     "700.79d05038.chunk.js.map": "/goit-project-petly/static/js/700.79d05038.chunk.js.map",
     "807.fb415e47.chunk.js.map": "/goit-project-petly/static/js/807.fb415e47.chunk.js.map",
     "356.7d412d56.chunk.js.map": "/goit-project-petly/static/js/356.7d412d56.chunk.js.map",
-    "150.69a4c714.chunk.js.map": "/goit-project-petly/static/js/150.69a4c714.chunk.js.map",
+    "150.2ce065e6.chunk.js.map": "/goit-project-petly/static/js/150.2ce065e6.chunk.js.map",
     "207.1d7e4ba1.chunk.js.map": "/goit-project-petly/static/js/207.1d7e4ba1.chunk.js.map",
     "619.551c95e9.chunk.js.map": "/goit-project-petly/static/js/619.551c95e9.chunk.js.map",
     "588.34ef6645.chunk.js.map": "/goit-project-petly/static/js/588.34ef6645.chunk.js.map",
@@ -45,6 +45,6 @@
   },
   "entrypoints": [
     "static/css/main.b0e350f9.css",
-    "static/js/main.23449791.js"
+    "static/js/main.c79356d1.js"
   ]
 }
