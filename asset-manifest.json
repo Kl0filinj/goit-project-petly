@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/goit-project-petly/static/css/main.b0e350f9.css",
-    "main.js": "/goit-project-petly/static/js/main.401940ed.js",
+    "main.js": "/goit-project-petly/static/js/main.64144910.js",
     "static/js/859.76d6a50a.chunk.js": "/goit-project-petly/static/js/859.76d6a50a.chunk.js",
     "static/js/807.14377501.chunk.js": "/goit-project-petly/static/js/807.14377501.chunk.js",
     "static/js/356.4b2445e7.chunk.js": "/goit-project-petly/static/js/356.4b2445e7.chunk.js",
-    "static/js/671.e0a2ee00.chunk.js": "/goit-project-petly/static/js/671.e0a2ee00.chunk.js",
+    "static/js/423.2a4bb8de.chunk.js": "/goit-project-petly/static/js/423.2a4bb8de.chunk.js",
     "static/js/207.fade650c.chunk.js": "/goit-project-petly/static/js/207.fade650c.chunk.js",
     "static/js/473.7b8a87f3.chunk.js": "/goit-project-petly/static/js/473.7b8a87f3.chunk.js",
     "static/js/724.162857ba.chunk.js": "/goit-project-petly/static/js/724.162857ba.chunk.js",
@@ -14,8 +14,8 @@
     "static/js/184.941e42ba.chunk.js": "/goit-project-petly/static/js/184.941e42ba.chunk.js",
     "static/media/bg-auth-laptop.png": "/goit-project-petly/static/media/bg-auth-laptop.37258932ae831c4f8073.png",
     "static/media/bg-auth-tablet.png": "/goit-project-petly/static/media/bg-auth-tablet.b2c9c95741743cc440fe.png",
+    "static/media/no_img.png": "/goit-project-petly/static/media/no_img.295cf90aa4bc156e1ea4.png",
     "static/media/bg-auth-mobile.png": "/goit-project-petly/static/media/bg-auth-mobile.4113b880676e40779373.png",
-    "static/media/no_img.jpg": "/goit-project-petly/static/media/no_img.c72681a4cd7a7785be13.jpg",
     "static/media/male.svg": "/goit-project-petly/static/media/male.738c9ca9680a0bee2db2bd089ee92c0f.svg",
     "static/media/defaultAvatar.svg": "/goit-project-petly/static/media/defaultAvatar.3d3f71b41622db82b538a864d90b0b61.svg",
     "static/media/logo.svg": "/goit-project-petly/static/media/logo.0e894626fa8c5c567a5d02b8a4ecc974.svg",
@@ -27,11 +27,11 @@
     "static/media/akar-icons_heart.svg": "/goit-project-petly/static/media/akar-icons_heart.ea665c85a6c4b919e3ff4afb2c498fcb.svg",
     "static/media/plus.svg": "/goit-project-petly/static/media/plus.deec2b9327a6f7e779ae3cbb9fa31798.svg",
     "main.b0e350f9.css.map": "/goit-project-petly/static/css/main.b0e350f9.css.map",
-    "main.401940ed.js.map": "/goit-project-petly/static/js/main.401940ed.js.map",
+    "main.64144910.js.map": "/goit-project-petly/static/js/main.64144910.js.map",
     "859.76d6a50a.chunk.js.map": "/goit-project-petly/static/js/859.76d6a50a.chunk.js.map",
     "807.14377501.chunk.js.map": "/goit-project-petly/static/js/807.14377501.chunk.js.map",
     "356.4b2445e7.chunk.js.map": "/goit-project-petly/static/js/356.4b2445e7.chunk.js.map",
-    "671.e0a2ee00.chunk.js.map": "/goit-project-petly/static/js/671.e0a2ee00.chunk.js.map",
+    "423.2a4bb8de.chunk.js.map": "/goit-project-petly/static/js/423.2a4bb8de.chunk.js.map",
     "207.fade650c.chunk.js.map": "/goit-project-petly/static/js/207.fade650c.chunk.js.map",
     "473.7b8a87f3.chunk.js.map": "/goit-project-petly/static/js/473.7b8a87f3.chunk.js.map",
     "724.162857ba.chunk.js.map": "/goit-project-petly/static/js/724.162857ba.chunk.js.map",
@@ -41,6 +41,6 @@
   },
   "entrypoints": [
     "static/css/main.b0e350f9.css",
-    "static/js/main.401940ed.js"
+    "static/js/main.64144910.js"
   ]
 }
