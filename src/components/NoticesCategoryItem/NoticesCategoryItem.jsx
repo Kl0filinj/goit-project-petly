@@ -4,10 +4,7 @@ import { toast } from 'react-toastify';
 import petTemlate from '../../media/no_img.png';
 import moment from 'moment';
 
-import {
-  // getUser,
-  getIsLoggedIn,
-} from '../../redux/auth/auth-selectors';
+import { getUser, getIsLoggedIn } from '../../redux/auth/auth-selectors';
 
 import { getFavoriteNotices } from '../../redux/notices/notices-selectors';
 import {
@@ -46,6 +43,8 @@ const NoticesCategoryItem = ({
   const favoriteNotices = useSelector(getFavoriteNotices);
   const favorite = favoriteNotices.includes(id);
   const [isFavorite, setIsFavorite] = useState(favorite);
+  const user = useSelector(getUser);
+  console.log('🚀 ~ file: NoticesCategoryItem.jsx:47 ~ user', user);
 
   useEffect(() => {}, [isFavorite]);
 
