@@ -14,10 +14,11 @@ const NoticesCategoriesNav = () => {
 
 
   const handleClick = () => {
-    if (!isLoggedIn) {
-    toast("Please log in!")}
+    if (!isLoggedIn) return toast.info("Please log in!")
+    else {
     onOpen(true)
   }
+}
 
   return (
     <Box maxWidth={{base:'280px', md:'704px', xl: '1248px'}} mx={'auto'}>
