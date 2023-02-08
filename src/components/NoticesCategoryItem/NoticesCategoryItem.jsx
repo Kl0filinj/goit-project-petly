@@ -63,12 +63,7 @@ const NoticesCategoryItem = ({
 
   const isOwner = owner === _id;
   const calculatePetsAge = birthdate => {
-    const petsAge = moment(birthdate, 'YYYY-MM-DD').fromNow(true);
-    return petsAge;
-  };
-
-  const calculatePetsAgeModal = birthdate => {
-    const petsAge = moment(birthdate, 'YYYY-MM-DD').format('DD.MM.YYYY');
+    const petsAge = moment(birthdate, 'DD.MM.YYYY').fromNow(true);
     return petsAge;
   };
 
@@ -231,7 +226,6 @@ const NoticesCategoryItem = ({
           id={id}
           toggleFavorite={toggleFavorite}
           favorite={isFavorite}
-          calculatePetsAgeModal={calculatePetsAgeModal}
         />
       </CardFooter>
     </Card>
