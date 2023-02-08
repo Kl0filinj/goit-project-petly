@@ -44,8 +44,8 @@ function ModalNotice({ isOpen, onClose, id, toggleFavorite, favorite }) {
       <ModalContent
         w={['280px', null, '280px', '704px']}
         maxW={'none'}
-        px={['20px', null, '20px', '20px']}
-        py={'32px'}
+        px={[null, null, null, '20px']}
+        py={[null, null, '60px', '32px']}
         borderRadius={['20px', null, '20px', '40px']}
       >
         {!isLoading ? (
