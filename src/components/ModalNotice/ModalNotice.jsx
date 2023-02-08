@@ -1,9 +1,6 @@
 import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-
-// import { getUser, getIsLoggedIn } from '../../redux/auth/auth-selectors';
 import {
-  // getFavoriteNotices,
   selectCurrentNotice,
   getNoticesLoading,
 } from '../../redux/notices/notices-selectors';
@@ -32,9 +29,6 @@ import Loader from 'components/Loader/Loader';
 
 function ModalNotice({ isOpen, onClose, id, toggleFavorite, favorite }) {
   const dispatch = useDispatch();
-  // const user = useSelector(getUser);
-  // const isLoggedIn = useSelector(getIsLoggedIn);
-  // const favoriteNotices = useSelector(getFavoriteNotices);
   const notice = useSelector(selectCurrentNotice);
   const isLoading = useSelector(getNoticesLoading);
 
@@ -44,7 +38,6 @@ function ModalNotice({ isOpen, onClose, id, toggleFavorite, favorite }) {
     }
   }, [dispatch, id, isOpen]);
 
-  // const { title, children, ...rest } = useDisclosure();
   return (
     <Modal isOpen={isOpen} onClose={onClose}>
       <ModalOverlay bg="rgba(17, 17, 17, 0.6);" />
@@ -54,7 +47,6 @@ function ModalNotice({ isOpen, onClose, id, toggleFavorite, favorite }) {
         px={['20px', null, '20px', '20px']}
         py={'32px'}
         borderRadius={['20px', null, '20px', '40px']}
-        // {...rest}
       >
         {!isLoading ? (
           <>
@@ -347,7 +339,6 @@ function ModalNotice({ isOpen, onClose, id, toggleFavorite, favorite }) {
               bg={'#FDF7F2'}
               borderRadius={'50%'}
             />
-            {/* <ModalBody p={'0'}>{children}</ModalBody> */}
           </>
         ) : (
           <Loader />
