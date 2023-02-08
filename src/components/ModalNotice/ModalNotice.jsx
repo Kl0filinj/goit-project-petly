@@ -272,7 +272,7 @@ function ModalNotice({ isOpen, onClose, id, toggleFavorite, favorite }) {
                           >
                             Price:
                           </FormLabel>
-                          <Text>{notice?.price} $</Text>
+                          <Text>{notice?.price} UAH</Text>
                         </ListItem>
                       )}
                     </List>

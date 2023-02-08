@@ -62,6 +62,7 @@ const NoticesCategoryItem = ({
   const { _id } = useSelector(getUser);
 
   const isOwner = owner === _id;
+
   const calculatePetsAge = birthdate => {
     const petsAge = moment(birthdate, 'DD.MM.YYYY').fromNow(true);
     return petsAge;
@@ -178,7 +179,7 @@ const NoticesCategoryItem = ({
               lineHeight={'short'}
               color={'#111111'}
             >
-              Price: {price}
+              Price: {price} UAH
             </Text>
           )}
         </Box>
