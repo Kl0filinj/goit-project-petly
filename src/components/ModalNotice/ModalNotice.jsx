@@ -44,7 +44,7 @@ function ModalNotice({ isOpen, onClose, id, toggleFavorite, favorite }) {
       <ModalContent
         w={['280px', null, '280px', '704px']}
         maxW={'none'}
-        px={[null, null, null, '20px']}
+        //  px={[null, null, null, '20px']}
         py={[null, null, '60px', '32px']}
         borderRadius={['20px', null, '20px', '40px']}
       >
@@ -279,7 +279,7 @@ function ModalNotice({ isOpen, onClose, id, toggleFavorite, favorite }) {
                   display="flex"
                   justifyContent="flex-start"
                   flexWrap={['34px', null, 'wrap', 'nowrap']}
-                  paddingRight="20px"
+                  paddingRight={[null, null, null, '20px']}
                   marginTop={[null, null, '40px', '32px']}
                   flexDirection="row-reverse"
                 >

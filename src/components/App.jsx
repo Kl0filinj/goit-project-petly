@@ -41,58 +41,58 @@ export const App = () => {
   return (
     <>
       {/* {!isLoading && ( */}
-        <Routes>
-          <Route path="/" element={<SharedLayout />}>
-            <Route index element={<Home />} />
+      <Routes>
+        <Route path="/" element={<SharedLayout />}>
+          <Route index element={<Home />} />
 
+          <Route
+            path="login"
+            element={
+              <RedirectedRoute redirectTo="/user" component={<Login />} />
+            }
+          />
+          <Route
+            path="register"
+            element={
+              <RedirectedRoute redirectTo="/user" component={<Register />} />
+            }
+          />
+
+          <Route path="news" element={<News />} />
+          <Route path="notices/" element={<Notices />}>
+            <Route path="sell" element={<NoticesCategoriesList />} />
+            <Route path="lost-found" element={<NoticesCategoriesList />} />
+            <Route path="for-free" element={<NoticesCategoriesList />} />
             <Route
-              path="login"
+              path="own"
               element={
-                <RedirectedRoute redirectTo="/user" component={<Login />} />
+                <PrivateRoute
+                  redirectTo="/login"
+                  component={<NoticesCategoriesList />}
+                />
               }
             />
             <Route
-              path="register"
+              path="favorite"
               element={
-                <RedirectedRoute redirectTo="/user" component={<Register />} />
+                <PrivateRoute
+                  redirectTo="/login"
+                  component={<NoticesCategoriesList />}
+                />
               }
             />
-
-            <Route path="news" element={<News />} />
-            <Route path="notices/" element={<Notices />}>
-              <Route path="sell" element={<NoticesCategoriesList />} />
-              <Route path="lost-found" element={<NoticesCategoriesList />} />
-              <Route path="free" element={<NoticesCategoriesList />} />
-              <Route
-                path="own"
-                element={
-                  <PrivateRoute
-                    redirectTo="/login"
-                    component={<NoticesCategoriesList />}
-                  />
-                }
-              />
-              <Route
-                path="favorite"
-                element={
-                  <PrivateRoute
-                    redirectTo="/login"
-                    component={<NoticesCategoriesList />}
-                  />
-                }
-              />
-            </Route>
-
-            <Route path="friends" element={<OurFriends />} />
-            <Route
-              path="user"
-              element={
-                <PrivateRoute redirectTo="/login" component={<UserAccount />} />
-              }
-            />
-            <Route path="*" element={<h1>Page Not Found 🥶</h1>} />
           </Route>
-        </Routes>
+
+          <Route path="friends" element={<OurFriends />} />
+          <Route
+            path="user"
+            element={
+              <PrivateRoute redirectTo="/login" component={<UserAccount />} />
+            }
+          />
+          <Route path="*" element={<h1>Page Not Found 🥶</h1>} />
+        </Route>
+      </Routes>
       {/* )} */}
     </>
   );
