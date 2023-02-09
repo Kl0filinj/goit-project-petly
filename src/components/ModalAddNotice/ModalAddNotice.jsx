@@ -253,7 +253,12 @@ const ModalAddsNotice = ({ onClose }) => {
                   controle="secondary"
                   width={{ md: '180px' }}
                 >
-                  {isLoading ? 'Adding...' : 'Done'}
+                  {isLoading
+                  ? <> Adding <Spinner emptyColor='#FF6101'
+                                      color='#F5F5F5'
+                                      textAlign='center'
+                                      size='xs'/></>
+                  : 'Done'}
                 </Button>
                 <Button
                   onClick={() => setFirstStep(true)}
