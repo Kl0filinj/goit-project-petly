@@ -3,7 +3,7 @@ import { useMemo, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { nanoid } from 'nanoid';
 import moment from 'moment/moment';
-import { Text, Box } from '@chakra-ui/react';
+import { Text, Box, Spinner } from '@chakra-ui/react';
 import { addNotice } from 'redux/notices/notices-operations';
 import { getNoticesLoading } from 'redux/notices/notices-selectors';
 import {
