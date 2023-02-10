@@ -2,7 +2,8 @@ import { useEffect, useMemo } from 'react';
 import { useLocation, useSearchParams } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
 import NoticesCategoryItem from '../NoticesCategoryItem/NoticesCategoryItem';
-import { Box, Heading, SimpleGrid } from '@chakra-ui/react';
+import NoticesEmpty from '../NoticesEmpty/NoticesEmpty';
+import { SimpleGrid } from '@chakra-ui/react';
 import {
   getNoticesByCategory,
   getFavorites,
@@ -100,9 +101,7 @@ const NoticesCategoriesList = () => {
                   )}
                 </>
               ) : (
-                <Box textAlign={'center'}>
-                  <Heading>This Category is empty ^_^</Heading>
-                </Box>
+                <NoticesEmpty />
               )}
             </>
           </SimpleGrid>
