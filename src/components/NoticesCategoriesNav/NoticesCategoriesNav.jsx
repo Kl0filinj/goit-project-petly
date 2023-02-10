@@ -13,6 +13,7 @@ const NoticesCategoriesNav = () => {
   const handleClick = () => {
     if (!isLoggedIn) {
       toast('Please log in!');
+      return;
     }
     onOpen(true);
   };
@@ -35,7 +36,9 @@ const NoticesCategoriesNav = () => {
         >
           <FilterLink to={'lost-found'}>lost/found</FilterLink>
           <FilterLink to={'for-free'}>in good hand</FilterLink>
-          <FilterLink exact='true' to={'sell'}>sell</FilterLink>
+          <FilterLink exact="true" to={'sell'}>
+            sell
+          </FilterLink>
           {isLoggedIn && (
             <>
               <FilterLink to={'favorite'}>favorite ads</FilterLink>
