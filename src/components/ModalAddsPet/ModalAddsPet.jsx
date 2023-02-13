@@ -55,7 +55,6 @@ const ModalAddsPet = ({ onClose }) => {
         if (error) {
             return errorToast(error.message)
         }
-        successToast('Pet successfully added')
         resetForm()
         onClose()
         }
